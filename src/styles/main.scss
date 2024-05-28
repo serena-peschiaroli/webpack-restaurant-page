@@ -1,0 +1,11 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+
+@import '../components/header/header.scss';
+@import '../components/content/content.scss';
+@import '../components/footer/footer.scss';
