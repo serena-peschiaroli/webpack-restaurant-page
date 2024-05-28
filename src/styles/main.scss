@@ -1,11 +1,36 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font: 100% $font-stack;
     color: $primary-color;
+    background-color: rgb(247, 245, 235)
+}
+
+#hero-container{
+    min-height: 775px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-image: url(../assets/images/vegetables-set-left-black-slate.jpg);
+    background-position: 71.36% 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 50px;
+
 }
 
 @import '../components/header/header.scss';
+@import '../components/hero/hero.scss';
+
 @import '../components/content/content.scss';
 @import '../components/footer/footer.scss';

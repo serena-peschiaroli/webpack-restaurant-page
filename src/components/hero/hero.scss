@@ -1,0 +1,49 @@
+.hero{
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    min-height: 500px;
+    color: white;
+
+
+    .discount{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        color: white;
+
+        p:first-child{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        p:last-child{
+            font-size: 0.8rem;
+        }
+
+       
+    }
+
+        h1 {
+             font-size: 3rem;
+            margin-right: 197px;
+    
+        }
+    
+        .heroBtn {
+            padding: 0.5rem 1rem;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+}
