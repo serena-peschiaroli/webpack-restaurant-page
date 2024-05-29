@@ -4,10 +4,20 @@ function createContent() {
   const content = document.createElement('div');
   content.classList.add('content');
 
-  const p = document.createElement('p');
-  p.textContent = 'This is the content of the restaurant page.';
+  content.innerHTML = `
+    <div class="first-container">
+      <div class="advertising">
+        <p>OUR RESTAURANT</p>
+      </div>
+    </div>
+    <div class="text-container">
+      <h1>A culinary adventure for all the senses</h1>
+    </div>
+    <div class="btn-wrapper">
+      <button class="heroBtn">READ MORE</button>
+    </div>
+  `;
 
-  content.appendChild(p);
   return content;
 }
 

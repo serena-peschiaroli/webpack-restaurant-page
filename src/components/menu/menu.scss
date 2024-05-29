@@ -1,21 +1,29 @@
 .menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
 
     .menu-item {
-        background: #fff;
         border-radius: 8px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         margin: 10px;
-        padding: 15px;
         text-align: center;
-        width: 200px;
+        width: 250px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+
+        .card-top{
+            display: flex;
+            flex-direction: column;
+        }
 
         img {
             max-width: 100%;
-            border-radius: 8px 8px 0 0;
+            border-radius: 8px;
         }
 
         h3 {
@@ -23,9 +31,13 @@
             margin: 10px 0;
         }
 
-        p {
-            color: #777;
-            font-size: 0.9em;
+        .menuBtn {
+            padding: 0.5rem 0.5rem;
+            border-radius: 50px;
+            font-size: 1rem;
+            background-color: goldenrod;
+            color: white;
+            border: none;
         }
     }
 }

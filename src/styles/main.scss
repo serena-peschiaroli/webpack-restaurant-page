@@ -36,8 +36,37 @@ body {
 
 }
 
+#contact-container{
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#content-container{
+
+    min-height: 775px;
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(../assets/images/top-view-food.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 50px;
+    position: relative;
+
+}
+
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 @import '../components/header/header.scss';
 @import '../components/hero/hero.scss';
 @import '../components/menu/menu.scss';
+@import '../components/contact/contact.scss';
 @import '../components/content/content.scss';
 @import '../components/footer/footer.scss';

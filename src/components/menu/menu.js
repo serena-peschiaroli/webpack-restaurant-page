@@ -9,10 +9,10 @@ function createMenu() {
   menu.classList.add('menu');
 
   const items = [
-    { name: 'Hot Pizza', image: pizzaImage, description: 'Delicious hot pizza.' },
-    { name: 'Salads', image: saladsImage, description: 'Fresh and healthy salads.' },
-    { name: 'Dessert', image: dessertImage, description: 'Sweet and tasty desserts.' },
-    { name: 'Drinks', image: drinksImage, description: 'Refreshing drinks.' },
+    { name: 'Hot Pizza', image: pizzaImage},
+    { name: 'Salads', image: saladsImage },
+    { name: 'Dessert', image: dessertImage },
+    { name: 'Drinks', image: drinksImage},
   ];
 
   items.forEach(item => {
@@ -28,9 +28,13 @@ function createCard(item) {
   card.classList.add('menu-item');
 
   card.innerHTML = `
+  <div class="card-top">
     <img src="${item.image}" alt="${item.name}">
     <h3>${item.name}</h3>
-    <p>${item.description}</p>
+    </div>
+    <div class="card-bottom">
+    <button class="menuBtn">Read More</button>
+    </div>
   `;
 
   return card;
