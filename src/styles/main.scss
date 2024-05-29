@@ -10,7 +10,10 @@ $primary-color: #333;
 body {
     font: 100% $font-stack;
     color: $primary-color;
-    background-color: rgb(247, 245, 235)
+    background-color: rgb(247, 245, 235);
+    --effect-scale: 1.1;
+    height: 100vh;
+    min-height: 100%;
 }
 
 #hero-container{
@@ -63,10 +66,17 @@ body {
 
 }
 
+#blog-container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 @import '../components/header/header.scss';
 @import '../components/hero/hero.scss';
 @import '../components/menu/menu.scss';
 @import '../components/contact/contact.scss';
 @import '../components/content/content.scss';
+@import '../components/blog/blog.scss';
 @import '../components/footer/footer.scss';

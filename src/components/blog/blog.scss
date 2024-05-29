@@ -1,0 +1,44 @@
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    .blog-item {
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        text-align: center;
+        width: 250px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        .card-top {
+            display: flex;
+            flex-direction: column;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .blogBtn {
+            padding: 0.5rem 0.5rem;
+            border-radius: 50px;
+            font-size: 1rem;
+            background-color: greenyellow;
+            color: white;
+            border: none;
+        }
+    }
+}
