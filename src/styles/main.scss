@@ -17,20 +17,27 @@ body {
     min-height: 775px;
     width: 80%;
     margin: 0 auto;
-    padding: 1rem;
     background-image: url(../assets/images/vegetables-set-left-black-slate.jpg);
-    background-position: 71.36% 50%;
+    background-position: center;
     background-repeat: no-repeat;
-    object-fit: cover;
-    vertical-align: middle;
+    background-size: cover;
     margin-top: 60px;
     margin-bottom: 60px;
+    display: flex;
+    justify-content: flex-start;
     border-radius: 50px;
+    position: relative;
+
+}
+
+#menu-container{
+    width: 80%;
+    margin: 0 auto;
 
 }
 
 @import '../components/header/header.scss';
 @import '../components/hero/hero.scss';
-
+@import '../components/menu/menu.scss';
 @import '../components/content/content.scss';
 @import '../components/footer/footer.scss';
