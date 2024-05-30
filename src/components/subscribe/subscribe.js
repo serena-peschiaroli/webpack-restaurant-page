@@ -14,8 +14,12 @@ function createSubscribe() {
     <p>Lorem ipsum dolor</p>
     </div>
     <div class="contact-footer">
-    <i class="fa-solid fa-envelope"></i>
-    <input class="email" type="email" placeholder="Subscribe">
+    <form action="#" class="form" source="email" name="form" style="padding=0px">
+    <label for"email"><i class="fa-solid fa-envelope"></i></label>
+    
+    <input class="email" type="email" name="email" placeholder="Enter a valid email address">
+    <button class="subscribe-btn"> Submit</button>
+    </form>
     </div>
     `
 
