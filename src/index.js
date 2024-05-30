@@ -4,6 +4,8 @@ import createMenu from './components/menu/menu';
 import createContact from './components/contact/contact';
 import createContent from './components/content/content';
 import createBlog from './components/blog/blog';
+import createSndContent from './components/secondContent/ndContent';
+import createSubscribe from './components/subscribe/subscribe';
 import createFooter from './components/footer/footer';
 import './styles/main.scss'; 
 import { create } from 'lodash';
@@ -15,6 +17,9 @@ const menuContainer = document.getElementById('menu-container');
 const contactContainer = document.getElementById('contact-container');
 const contentContainer = document.getElementById('content-container');
 const blogContainer = document.getElementById('blog-container');
+const secondContentContainer = document.getElementById('content-2-container');
+
+const subscribeContainer = document.getElementById('subscribe-container');
 const footerContainer = document.getElementById('footer-container');
 
 // Clear existing content to avoid duplicates
@@ -24,6 +29,9 @@ menuContainer.innerHTML = '';
 contactContainer.innerHTML = '';
 contentContainer.innerHTML = '';
 blogContainer.innerHTML = '';
+secondContentContainer.innerHTML = '';
+subscribeContainer.innerHTML = '';
+
 footerContainer.innerHTML = '';
 
 // Append components
@@ -33,6 +41,8 @@ menuContainer.appendChild(createMenu());
 contactContainer.appendChild(createContact());
 contentContainer.appendChild(createContent());
 blogContainer.appendChild(createBlog());
+secondContentContainer.appendChild(createSndContent());
+subscribeContainer.appendChild(createSubscribe());
 footerContainer.appendChild(createFooter());
 
 console.log('Restaurant webpage is running in development mode!');
