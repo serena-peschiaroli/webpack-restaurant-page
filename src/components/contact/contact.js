@@ -7,14 +7,14 @@ function createContact() {
 
     contact.innerHTML = `
     <div class="contact-top">
-    <h1 class="contact-title">
-    Keep up to date with us
-    <h1>
-    <p>Lorem ipsum dolor</p>
+        <h1 class="contact-title">
+        Keep up to date with us
+        <h1>
+        <p>Lorem ipsum dolor</p>
     </div>
     <div class="contact-footer">
-    <i class="fa-solid fa-phone"></i>
-    <p class="phone-number">+39 06 66 12 3456</p>
+        <i class="fa-solid fa-phone"></i>
+        <p class="phone-number">+39 06 66 12 3456</p>
     </div>
     `
 

@@ -18,6 +18,13 @@
         max-width: 100%;
         padding: 10px;
         height: 100%;
+        transition: transform 0.3s, box-shadow 0.3s;
+
+        &:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
         .card-top{
             display: flex;
             flex-direction: column;
@@ -39,17 +46,24 @@
         
 
         h3 {
-            font-size: 1.2em;
+            font-size: 1.5rem;
             margin: 10px 0;
         }
 
         .menuBtn {
-            padding: 0.5rem 0.5rem;
+            padding: 1rem;
             border-radius: 50px;
             font-size: 1rem;
             background-color: goldenrod;
             color: white;
             border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+
+            &:hover {
+                    background-color: #daa520;
+                    transform: scale(1.05);
+            }
         }
     }
 }

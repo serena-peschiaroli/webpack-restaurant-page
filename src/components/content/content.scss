@@ -47,6 +47,14 @@
         font-size: 1.5rem;
         background-color: goldenrod;
         color: white;
+        cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        
+        
+            &:hover {
+                background-color: #daa520;
+                transform: scale(1.05);
+            }
     }
 
 }

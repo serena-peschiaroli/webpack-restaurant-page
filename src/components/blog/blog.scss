@@ -17,6 +17,12 @@
         flex: 1;
         max-width: 100%;
         padding: 10px;
+        transition: transform 0.3s, box-shadow 0.3s;
+        
+            &:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
 
         .card-top {
             display: flex;
@@ -42,12 +48,19 @@
         }
 
         .blogBtn {
-            padding: 0.5rem 0.5rem;
+            padding: 1rem;
             border-radius: 50px;
             font-size: 1rem;
-            background-color: greenyellow;
+            background-color: #a6e22e;
             color: white;
             border: none;
+            cursor: pointer;
+                transition: background-color 0.3s, transform 0.3s;
+            
+                &:hover {
+                    background-color: #daa520;
+                    transform: scale(1.05);
+                }
         }
     }
 }

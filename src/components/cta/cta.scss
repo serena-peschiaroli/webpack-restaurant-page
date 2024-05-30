@@ -65,11 +65,13 @@
                 color: white;
                 border: none;
                 cursor: pointer;
-                transition: background-color 0.3s;
-
-                &:hover {
-                    background-color: #daa520;
-                }
+                    transition: background-color 0.3s, transform 0.3s;
+                
+                
+                    &:hover {
+                        background-color: #daa520;
+                        transform: scale(1.05);
+                    }
             }
         }
     }
@@ -97,10 +99,16 @@
                 justify-content: center;
                 align-items: center;
                 border-radius: 50%;
+                transition: background-color 0.3s, transform 0.3s;
 
                 i {
                     font-size: 2rem;
                     color: #000;
+                }
+
+                 &:hover {
+                    background-color: #8dc63f;
+                    transform: scale(1.1);
                 }
             }
 
@@ -109,6 +117,11 @@
                     font-size: 2rem;
                     margin: 0 0 0.5rem 0;
                     font-weight: bold;
+                    transition: color 0.3s;
+
+                    &:hover {
+                            color: goldenrod;
+                    }
                 }
 
                 p {
