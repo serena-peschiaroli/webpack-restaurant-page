@@ -1,4 +1,5 @@
 import createHomePage from './components/Pages/homepage/homepage';
+import createMenuPage from './components/Pages/menu/menu';
 import './styles/main.scss';
 
 function clearApp() {
