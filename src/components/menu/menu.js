@@ -5,6 +5,8 @@ import dessertImage from '../../assets/images/dessert.jpg';
 import drinksImage from '../../assets/images/drinks.jpg';
 
 function createMenu() {
+  const menuContainer = document.createElement('section');
+  menuContainer.id = 'menu-container';
   const menu = document.createElement('div');
   menu.classList.add('menu');
 
@@ -20,7 +22,9 @@ function createMenu() {
     menu.appendChild(card);
   });
 
-  return menu;
+  menuContainer.appendChild(menu);
+
+  return menuContainer;
 }
 
 function createCard(item) {

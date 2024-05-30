@@ -1,6 +1,9 @@
 import './content.scss';
 
 function createContent() {
+
+  const contentContainer = document.createElement('section');
+  contentContainer.id = 'content-container';
   const content = document.createElement('div');
   content.classList.add('content');
 
@@ -18,7 +21,9 @@ function createContent() {
     </div>
   `;
 
-  return content;
+  contentContainer.appendChild(content);
+
+  return contentContainer;
 }
 
 export default createContent;

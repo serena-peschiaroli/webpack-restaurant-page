@@ -5,6 +5,8 @@ import foodItems3 from '../../assets/images/food_images7.jpg';
 import foodItems4 from '../../assets/images/food_images8.jpg';
 
 function createBlog() {
+  const blogContainer = document.createElement('section');
+  blogContainer.id = 'blog-container';
   const blog = document.createElement('div');
   blog.classList.add('blog');
 
@@ -20,7 +22,8 @@ function createBlog() {
     blog.appendChild(card);
   });
 
-  return blog;
+  blogContainer.appendChild(blog);
+  return blogContainer;
 }
 
 function createCard(item) {
