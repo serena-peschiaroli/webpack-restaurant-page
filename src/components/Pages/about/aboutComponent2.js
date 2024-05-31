@@ -12,33 +12,30 @@ function createMiddleComponent() {
 
   const middleTitle = document.createElement('h1');
   middleTitle.classList.add('middle-title');
-  middleTitle.textContent = 'Keep up to date with us';
+  middleTitle.textContent ='We look forward to serving you and making every visit a memorable one.';
 
   const middleDescription = document.createElement('p');
-  middleDescription.textContent = 'Lorem ipsum dolor';
+  middleDescription.classList.add('middle-description');
+  middleDescription.textContent = 'Whether you re here for a casual lunch, a romantic dinner, or a celebration with friends and family, Restaurant offers an array of dishes that cater to every taste.';
 
-  contactTop.appendChild(contactTitle);
-  contactTop.appendChild(contactDescription);
+  middleTop.appendChild(middleTitle);
+  middleTop.appendChild(middleDescription);
 
-  const contactFooter = document.createElement('div');
-  contactFooter.classList.add('contact-footer');
+  const middleFooter = document.createElement('div');
+  middleFooter.classList.add('middle-footer');
 
-  const phoneIcon = document.createElement('i');
-  phoneIcon.classList.add('fa-solid', 'fa-phone');
+  const button = document.createElement('button');
+  button.classList.add('middle-btn');
+  button.textContent = 'READ MORE';
 
-  const phoneNumber = document.createElement('p');
-  phoneNumber.classList.add('phone-number');
-  phoneNumber.textContent = '+39 06 66 12 3456';
+  middleFooter.appendChild(button);
 
-  contactFooter.appendChild(phoneIcon);
-  contactFooter.appendChild(phoneNumber);
+  middle.appendChild(middleTop);
+  middle.appendChild(middleFooter);
 
-  contact.appendChild(contactTop);
-  contact.appendChild(contactFooter);
+  middleContainer.appendChild(middle);
 
-  contactContainer.appendChild(contact);
-
-  return contactContainer;
+  return middleContainer;
 }
 
-export default createContact;
+export default createMiddleComponent;
