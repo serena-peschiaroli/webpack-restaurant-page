@@ -7,6 +7,9 @@ import foodItems4 from '../../assets/images/food_images8.jpg';
 function createBlog() {
   const blogContainer = document.createElement('section');
   blogContainer.id = 'blog-container';
+  const blogTitle = document.createElement('h1');
+  blogTitle.innerHTML= "Check our blog";
+  blogContainer.appendChild(blogTitle)
   const blog = document.createElement('div');
   blog.classList.add('blog');
 

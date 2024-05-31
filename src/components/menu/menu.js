@@ -7,6 +7,10 @@ import drinksImage from '../../assets/images/drinks.jpg';
 function createMenu() {
   const menuContainer = document.createElement('section');
   menuContainer.id = 'menu-container';
+  const menuTitle = document.createElement('h1');
+  menuTitle.innerHTML= "Our Menu";
+  menuTitle.classList.add('menu_title');
+  menuContainer.appendChild(menuTitle);
   const menu = document.createElement('div');
   menu.classList.add('menu');
 

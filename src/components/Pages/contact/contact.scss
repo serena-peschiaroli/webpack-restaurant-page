@@ -1,0 +1,108 @@
+#contacts-wrapper {
+    width: 70%;
+    margin: 60px auto;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .contacts {
+
+        position: relative;
+        flex: 1;
+        max-width: 100%;
+
+        .contacts-header {
+                text-align: center;
+                margin: 10px auto 0;
+        
+                h1 {
+                        font-size: 3rem;
+                        line-height: 1.1;
+                }
+        
+                p {
+                    font-size: 1rem;
+                    color: #555;
+                    margin: 30px 111px 0;
+                }
+            }
+        
+            .contacts-form {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                margin: 30px 111px 0;
+                position: relative;
+
+                
+
+            }
+
+            .group-wrapper{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 3rem;
+
+            }
+        
+            .form-group {
+                display: flex;
+                flex-direction: column;
+                margin-left: -10px;
+                width: calc(100% + 10px);
+                padding: 0;
+        
+                label {
+                    font-size: 1rem;
+                    margin-bottom: 5px;
+                }
+        
+                input,
+                textarea {
+                    font-size: 1rem;
+                    padding: 1rem;
+                    border: px solid black;
+                    border-radius: 10px;
+        
+                    &:focus {
+                        outline: none;
+                        border-color: #aaa;
+                    }
+                }
+        
+                textarea {
+                    resize: vertical;
+                    height: 100px;
+                }
+            }
+
+            .btn-wrapper{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+        
+                .submit-btn {
+                    padding: 1rem 1.5rem;
+                    font-size: 1rem;
+                    color: #fff;
+                    background-color: #32cd32;
+                    border: none;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+            
+                    &:hover {
+                        background-color: #28a428;
+                    }
+                }
+
+            }
+    }
+}
