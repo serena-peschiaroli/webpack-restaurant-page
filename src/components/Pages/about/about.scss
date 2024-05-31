@@ -1,0 +1,103 @@
+#about-container {
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex: 1;
+   
+    background-color: white;
+    color: black;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+    border-radius: 50px;
+
+    .about {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        gap: 2rem;
+        width: 100%;
+
+        .col {
+            width: 45%;
+           
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+         
+            justify-content: flex-start;
+            gap: 1rem;
+
+            &.advertising {
+                width: 100%;
+                text-align: left;
+               
+                padding-bottom: 20px;
+
+                p {
+                    font-size: 1.5rem;
+                    
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .text-container {
+                h1 {
+                    font-size: 4rem;
+                    text-transform: uppercase;
+                    
+                    font-weight: bold;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            p {
+                font-size: 1.2rem;
+                
+                line-height: 1.5;
+                margin-bottom: 20px;
+            }
+
+            .btn-wrapper {
+                button {
+                    background-color: #ffcc00;
+                   
+                    color: white;
+                    padding: 1rem 0.5rem;
+                    border: none;
+                    border-radius: 50px;
+
+                    font-size: 1rem;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+
+                    &:hover {
+                        background-color: #e6b800;
+                    }
+                }
+            }
+
+            .image-wrapper {
+                width: 100%;
+                overflow: hidden;
+
+                
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    border-radius: 50px;
+                    height: auto;
+                    background-size: cover;
+                    background-position: 50% 50%;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}

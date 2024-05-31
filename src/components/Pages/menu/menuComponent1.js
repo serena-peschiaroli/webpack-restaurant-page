@@ -31,19 +31,19 @@ function createCol1() {
   
   const items = [
     {
-      title: 'Chicken Pot Pie $15.99',
+      title: 'Chicken Pot Pie €15.99',
       description: 'A classic comfort dish filled with tender chicken, peas, carrots, and a creamy sauce, all encased in a flaky, buttery crust.',
     },
     {
-      title: 'Meatloaf with Mashed Potatoes $14.49', 
+      title: 'Meatloaf with Mashed Potatoes €14.49', 
       description: 'Juicy, flavorful meatloaf served with creamy mashed potatoes and a rich brown gravy. A timeless home-cooked favorite.',
     },
     {
-      title: 'Beef Stroganoff $17.29',
+      title: 'Beef Stroganoff €17.29',
       description: 'Tender strips of beef cooked in a savory mushroom and onion sauce, served over a bed of egg noodles. Perfect for a hearty dinner.',
     },
     {
-      title: 'Shepherd s Pie $14.99',
+      title: 'Shepherd s Pie €14.99',
       description: 'A hearty casserole with ground lamb, mixed vegetables, and a savory gravy, topped with creamy mashed potatoes and baked to golden perfection.',
     },
   ];

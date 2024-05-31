@@ -44,19 +44,19 @@ function createCol2() {
   
   const items = [
     {
-      title: 'Caesar Salad $12.99',
+      title: 'Caesar Salad €12.99',
       description: 'Crisp romaine lettuce tossed with Caesar dressing, croutons, and Parmesan cheese. Topped with grilled chicken breast for a perfect balance of flavors.',
     },
     {
-      title: 'Greek Salad $10.49',
+      title: 'Greek Salad €10.49',
       description: 'A refreshing mix of cucumbers, tomatoes, Kalamata olives, and feta cheese, all drizzled with a tangy Greek dressing. Perfect for a light and healthy meal.',
     },
     {
-      title: 'Asian Chicken Salad $14.99',
+      title: 'Asian Chicken Salad €14.99',
       description: 'A blend of crisp lettuce, shredded cabbage, carrots, and mandarin oranges, topped with grilled chicken and crunchy wonton strips. Served with a sesame-ginger dressing.',
     },
     {
-      title: 'Spinach and Strawberry Salad  $11.29',
+      title: 'Spinach and Strawberry Salad  €11.29',
       description: 'Fresh baby spinach leaves combined with juicy strawberries, candied pecans, and goat cheese. Finished with a light balsamic vinaigrette.',
     },
   ];

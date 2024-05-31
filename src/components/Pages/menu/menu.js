@@ -7,6 +7,7 @@ import createSaladMenu from './menuComponent2';
 import createMealsMenu from './menuComponent1';
 
 import '../../../styles/main.scss';
+import createDessertMenu from './menuComponent3';
 
 function createMenuPage() {
   const menuPage = document.createElement('div');
@@ -14,8 +15,9 @@ function createMenuPage() {
   const header = createHeader();
   const contatComponent = createContact();
   const saladMenu = createSaladMenu(); 
-  const mealMenu = createMealsMenu(); 
+  const mealMenu = createMealsMenu();
   const advertisingComponent = createHero();
+  const dessertMenu = createDessertMenu();
   const ctaComponent = createCta();
   const footer = createFooter();
 
@@ -24,6 +26,7 @@ function createMenuPage() {
   menuPage.appendChild(saladMenu);
   menuPage.appendChild(mealMenu);
   menuPage.appendChild(advertisingComponent);
+  menuPage.appendChild(dessertMenu);
   menuPage.appendChild(ctaComponent);
 
   menuPage.appendChild(footer);
