@@ -11,7 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean : true,
     assetModuleFilename: '[name][ext]',
-    publicPath: '/webpack-restaurant-page'
+    publicPath: '/webpack-restaurant-page/'
   },
   mode: 'development',
   devtool: 'inline-source-map',
